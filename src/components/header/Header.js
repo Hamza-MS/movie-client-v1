@@ -1,9 +1,10 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import './Header.css';
 
 function Header() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" className='golden-header'>
             <Navbar.Brand href="#home">Movie Client</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
