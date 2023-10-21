@@ -1,8 +1,15 @@
 /* GoldenHeader.css */
 
+
+.navBarContainer{
+    position: fixed;
+    height: fit-content;
+    z-index: 2000;
+    width: 100%;
+}
 /* Style the Navbar */
 .golden-header {
-    
+    opacity: 0.8;
     top: 10px;
     border-radius: 5rem;
     background-color: transparent; /* Make the background transparent */
@@ -24,6 +31,7 @@
 .golden-header .nav-link {
     width: 7rem;
     color: #ffd700; /* Set the link text color to gold */
+    transition: border 0.3s ease-in-out;
 }
 
 /* Style the Navbar Links on hover */
@@ -31,4 +39,9 @@
     color: #fff; /* Change color on hover */
     background-color: #ffd700;
     border-radius: 5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
