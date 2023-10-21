@@ -25,10 +25,9 @@ export const Hero = ({ movies }) => {
                                         </div>
                                         <div className='review-btn-container'>
                                             <Link to ={`/review/${movie.imdbId}`}>
-                                                <Button variant='warning' className='review-btn'>review</Button>
+                                                <Button style={{backgroundColor:'gold',borderColor:'gold',color:'black',fontWeight:'bold'}}  className='review-btn'>review</Button>
                                             </Link>
                                         </div>
-                                        
                                     </div>
                                 </div>
                             </Paper>
