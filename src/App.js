@@ -6,6 +6,7 @@ import {Routes, Route} from 'react-router-dom';
 import { Home } from './components/home/Home';
 import Header from './components/header/Header';
 import Trailer from './components/trailer/Trailer';
+import Review from './components/review/Review';
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     }
     
   }
-
+  
  useEffect(() => { getMovies() }, [])
 
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" element={<Layout />} >
           <Route path="/" element={<Home movies={movies}/>} />
           <Route path='/trailer/:ytTrailerId' element={<Trailer />}/>
+          <Route path='/review/:imdbId' element={<Review />}/>
         </Route>
       </Routes>
 

@@ -1,0 +1,37 @@
+.review-page{
+    background-color: rgb(30, 30, 30);
+    width: 100vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.poster-container{
+    flex:1;
+    align-content: center;
+}
+.review-form-container{
+    color: gold;
+    flex:1;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    
+}
+.poster-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.poster{
+    display: block;
+    margin: auto;
+    border: 2px gold solid;
+    border-radius: 20px;
+   
+}
+.reviews-container{
+    color: aliceblue;
+    padding-top:2rem ;
+}
