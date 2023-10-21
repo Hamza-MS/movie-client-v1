@@ -71,4 +71,11 @@
     border-radius: 10px;
     
   }
+
+  .review-btn-container{
+    margin-top:auto ;
+    margin-bottom: auto;
+    margin-left: 5rem;
+    display: none;
+  }
   
